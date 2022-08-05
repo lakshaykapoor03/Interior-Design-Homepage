@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  background-image: url(./img/retro-living-room-interior-design-c362cb6e-f482-4ca4-97bf-0b845c268977.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  list-style: none;
+  color: #fff;
+  font-family: "Poppins";
+  margin-left: 30%;
+  font-size: 20px;
+  position: absolute;
+  top: 4%;
+}
+
+.icon-call {
+  position: absolute;
+  left: 60%;
+  top: -60%;
+}
+
+.logo-here {
+  color: #fff;
+  font-size: 40px;
+  width: 10%;
+  font-family: "Poppins";
+  margin-left: 50px;
+}
+
+hr {
+  margin-right: 5%;
+}
+
+.hero-heading {
+  font-size: 100px;
+  width: 60%;
+  font-family: "Poppins";
+  color: #fff;
+  margin-left: 50px;
+}
+
+.button-large {
+  width: 280px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50px 50px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.158);
+  width: 300px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  align-items: end;
+  padding: 20px 30px;
+}
+
+.para-1 {
+  position: absolute;
+  left: 60%;
+  top: 70%;
+}
+
+.para-2 {
+  position: absolute;
+  left: 75%;
+  top: 30%;
+}
+
+.icon-light {
+  position: absolute;
+  right: 35%;
+  top: 5%;
+}
+
+.icon-puzzle {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
