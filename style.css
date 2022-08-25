@@ -3,7 +3,7 @@
 body {
   background-image: url(./img/retro-living-room-interior-design-c362cb6e-f482-4ca4-97bf-0b845c268977.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 110%;
+  background-size: cover;
 }
 
 .list {
@@ -92,3 +92,86 @@ p {
   left: 10%;
   top: 10%;
 }
+
+@media screen and (max-width: 768px) {
+  
+
+  body {
+    background-image: url(./img/retro-living-room-interior-design-c362cb6e-f482-4ca4-97bf-0b845c268977.jpg);
+    height: 100vh;
+    width: 50vh;
+  }
+  
+  .logo-here{
+    font-size: 20px;
+  }
+  .list-item{
+    display: none;
+  }
+
+  .icon-call{
+   position: relative;
+  left: -1%;
+  top:-10%;
+  }
+
+  .hero-heading {
+    font-size: 50px;
+    width: 100%;
+    font-family: "Poppins";
+    color: #fff;
+    margin-left: 50px;
+  }
+
+  
+
+.button-large {
+  width: 180px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 50px 50px;
+  border-color: #fff;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.blocks{
+  display: flex;
+}
+
+
+.para-1 {
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  width: 30%;
+}
+
+
+
+
+.para-2 {
+  position: absolute;
+  left: 55%;
+  top: 60%;
+  width: 30%;
+}
+
+
+.icon-light {
+  position: absolute;
+  right: 1%;
+  top: -10%;
+}
+
+.icon-puzzle{
+  position: absolute;
+  right: 4%;
+
+  top: -10%;
+}
+  
+}
+  
+
